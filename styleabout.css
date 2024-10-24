@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(0, 0, 0, 0.902); 
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ nav{
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ nav ul{
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     height: 65px;
+     background-color: black;
+     color: white;
+ }
+ 
+ nav ul li{
+     padding: 0 12px;
+ }
+
+ nav ul li a:link, a:visited, a:active{
+    color: white;
+}
+
+ .brand img{
+     width: 44px;
+     padding: 0 8px;
+ }
+ 
+ .brand {
+     display: flex;
+     align-items: center;
+     font-weight: bolder;
+     font-size: 1.3rem;
+ }
+ 
+ .content{
+    color: white;
+    font-size: 1.25rem;
+ }
+
+ .content ul li a:link, a:visited, a:active{
+    color: white;
+}
